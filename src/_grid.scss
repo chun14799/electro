@@ -1,0 +1,19 @@
+$col: 12;
+$gutter: 10px;
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @for $i from 1 through $col {
+        .col-#{$i} {
+            width: (100% / $col) * $i;
+            // padding: $gutter / 2;
+        }
+    }
+}
+
+
+
+

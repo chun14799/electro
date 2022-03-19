@@ -1,0 +1,80 @@
+.header{
+    .container{
+        .masthead{
+            padding: 2.286em 0 1.857em;
+            .header-logo{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .search-bar{
+                width: 47%;
+                .ant-input-group{
+                    input{
+                        width: 85%;
+                        padding: 10px;
+                        border-radius: 22px 0px 0px 22px;
+                        border: 2px solid #fed700;
+                        padding: 10px 2.134em;
+                        &:focus{
+                            border: 2px solid #fed700;
+                        }
+                    }
+                }
+                .ant-input-group-addon{
+                    button{
+                        border-radius: 0px 22px 22px 0px;
+                        border: none;
+                        padding: 10px;
+                        background-color: #fed700;
+                        .anticon-search{
+                            padding: 3px 0px;
+                        }
+                    }
+                }
+            }
+            .header-icon{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                .icon{
+                    margin-left: 2.714em;
+                    a{
+                        line-height: 2.53em;
+                        font-size: 1.142em;
+                        font-weight: 700;
+                        color: #333e48;
+                        text-decoration: none;
+                        ion-icon{
+                            line-height: .9em;
+                            font-size: 1.429em;
+                        }
+                    }
+                }
+                .cart-icon{
+                    position: relative;
+                    a{
+                        white-space: nowrap;
+                        .cart-item-count{
+                            bottom: -3px;
+                            left: 7px;
+                            position: absolute;
+                            background-color: #fed700;
+                            font-size: .75em;
+                            line-height: 1.75em;
+                            font-weight: 700;
+                            width: 1.75em;
+                            text-align: center;
+                            border-radius: 50%;
+                            display: inline-block;
+                        }
+                        .cart-item-total-price{
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

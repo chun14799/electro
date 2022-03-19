@@ -1,0 +1,32 @@
+.Top-bar{
+    border-bottom: 1px solid #ddd;
+    .container{
+        .Top-bar-wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            a{
+                color: #333e48;
+            }
+            .Top-bar-menu{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: .929em;
+                li{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 5px;
+                    a{
+                        margin-left: 5px;
+                        padding: 0.58em 0;
+                    }
+                }
+                .line{
+                    color: #ddd;
+                }
+            }
+        }
+    }
+}
